@@ -1,0 +1,10 @@
+.search-wrapper{
+    margin: 0 auto;
+}
+
+#pokeman-name-search{
+    width: 500px;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
