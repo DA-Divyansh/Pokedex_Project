@@ -24,4 +24,9 @@
 .pokemon:hover{
     background-color: beige;
     border-radius: 3%;
+    border: 1px solid gray;
+}
+
+.pokemon-img:hover{
+    height: 140px;
 }
