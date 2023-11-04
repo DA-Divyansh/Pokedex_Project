@@ -43,8 +43,8 @@ function usePokemonList() {
           id: pokemon.id,
           name: capitalizeFirstLetter(pokemon.name),
           image: pokemon.sprites.other
-            ? pokemon.sprites.other.dream_world.front_default
-            : pokemon.sprites.front_shiny,
+          ? pokemon.sprites.other.dream_world.front_default
+          : pokemon.sprites.front_shiny,
           types: pokemon.types,
         };
       });
