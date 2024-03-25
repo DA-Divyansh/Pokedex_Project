@@ -8,7 +8,7 @@ function Search({updateSearchTerm}) {
             <input 
                 id="pokeman-name-search"
                 type="text"
-                placeholder="pokeman name"
+                placeholder="Enter pokeman name"
                 onChange={debounceCallback}
             />   
         </div>
